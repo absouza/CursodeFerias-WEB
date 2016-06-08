@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            width: 80%;
+            margin: 0 auto;
+        }
+        header{
+            background-color: deeppink;
+        }
+        nav{
+            background-color: aqua;
+        }
+        footer{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>MEU NOVO SITE</h1>
+            <h2>Subtitulo do meu site</h2>
+            <nav>
+                <!--ul>li{menu$}*4-->
+                <ul>
+                    <li>menu1</li>
+                    <li>menu2</li>
+                    <li>menu3</li>
+                    <li>menu4</li>
+                </ul>
+            </nav>
+            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolorem adipisci, reiciendis fugiat nostrum. Dolorem non ducimus eligendi possimus, labore, officia culpa aliquid maiores modi voluptas praesentium iste deserunt porro!</article>
+            <footer>
+                RODAPÉ                
+            </footer>
+        </header>    
+    
+    </div>
+</body>
+</html>
